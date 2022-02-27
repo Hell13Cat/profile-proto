@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg-dark text-white" style="padding-bottom: 70px">
+<nav class="navbar fixed-bottom navbar-expand-lg navbar-light bg-dark text-white"> <a class="navbar-brand text-white" href="#">Временное</a>
+  <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse text-white" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto text-white">
+      <li class="nav-item active text-white"> <a class="nav-link text-white" href="index.html">Главная <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item active text-white"> <a class="nav-link text-white" href="login.html">Логин</a> </li>
+    </ul>
+  </div>
+</nav>
+	<div class="col-xl col-lg-12" id="accordion1" role="tablist">
+	  <div class="card bg-dark text-white">
+			    <div class="card-header" role="tab" id="headingOne1">
+			      <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Войти&nbsp; </a> </h5>
+		        </div>
+			    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+			      <div class="card-body">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Логин</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nick#Tag"> </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Пароль</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+				      </div>
+					  <div class="form-check">
+					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+					    <label class="form-check-label" for="exampleCheck1">Не выходить из профиля</label>
+				      </div>
+					  <button type="submit" class="btn btn-primary">Войти</button>
+				    </form>
+                  </div>
+		        </div>
+      </div>
+			  <div class="card bg-dark text-white">
+			    <div class="card-header" role="tab" id="headingTwo1">
+			      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Регистрация </a> </h5>
+		        </div>
+			    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+			      <div class="card-body"><form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Желаймый ник</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nick"> </div>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Ваш E-Mail</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email"> </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Пароль</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+				      </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Повтор пароля</label>
+					    <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Пароль">
+				      </div>
+					  <button type="submit" class="btn btn-primary">Зарегестрироваться</button>
+				    </form></div>
+		        </div>
+		      </div>
+    		</div>
+	  <br>
+<div class="col-md-4">&nbsp;</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+</body>
+</html>
